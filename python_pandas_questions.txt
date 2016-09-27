@@ -1,0 +1,19 @@
+Pandas is a widely used tool for analyzing tabular data structures (spreadsheets, SQL tables, etc.) in Python. It is one of Social Fulcrum's core tools for managing and analyzing data, and is part of the majority of our work.
+
+Reference Documentation:
+
+Pandas Documentation: http://pandas.pydata.org/pandas-docs/version/0.18.0/
+Pandas Tutorial: http://pandas.pydata.org/pandas-docs/version/0.18.1/tutorials.html
+Installing Pandas (or using a web service): http://pandas.pydata.org/pandas-docs/stable/install.html
+
+For this test, please use the python_pandas_answers.py file contained in this repository as a starting point.
+
+In python_pandas_answers.py, please write a main function that reads the sample_dataset.csv included in this repository into a Pandas DataFrame object.
+
+Using the built-in methods of the DataFrame and Series objects, have the function print:
+
+1. The sum of the spend column
+2. The standard deviation of the pixel_1 column
+3. The number of unique values in the utm column
+
+The function does not need to return a value.

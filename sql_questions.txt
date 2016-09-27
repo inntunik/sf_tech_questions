@@ -1,0 +1,7 @@
+Using the hypothetical database described in sql_question_schema.png, write queries that address the following two questions.
+
+Save your solution in sql_answers.sql and submit either as a branch off this repository, or email to zach@socialfulcrum.com.
+
+1. Get spend, conversions and cost per conversion by date for rows where the account column equals "Account X" from the adwords and adwords_conversions tables. Only conversions of type "Ticket Purchase" should be counted (the type of conversion event is contained in the "conversion_type_name" column).
+
+2. Join the spend, impression, conversions, and cost per converion columns from the "bing" table to the table produced in question 1. The values from the bing table should also be for "Account X" only, grouped by date. Feel free to name the columns however you feel is appropriate to distinguish between the columns from the two different tables.
